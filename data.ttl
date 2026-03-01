@@ -12,5 +12,5 @@
 	jn:interest "Soccer" ;
 	jn:numberOfKids 2 ;
 	jn:colleague al:Anna ;
-	jn:knows <#KellyMarino> ;
+	jn:knows _:KellyMarino ;
 	jn:worksInSameBuilding _:KellyMarino .
