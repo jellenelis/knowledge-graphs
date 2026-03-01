@@ -13,4 +13,4 @@
 	jn:numberOfKids 2 ;
 	jn:colleague al:Anna ;
 	jn:knows <#KellyMarino> ;
-	jn:worksInSameBuilding _KellyMarino .
+	jn:worksInSameBuilding _:KellyMarino .
