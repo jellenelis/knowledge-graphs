@@ -1,0 +1,67 @@
+@base <https://jellenelis.github.io/knowledge-graph/vocabulary.ttl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<#Person> a rdfs:Class ;
+    rdfs:label "Person"@en, "Persoon"@nl ;
+    rdfs:comment "Resource that denotes a physical person"@en, "Concept dat een fysieke persoon voorstelt"@nl .
+
+<#name> a rdf:Property ;
+    rdfs:label "Name"@en, "Naam"@nl ;
+    rdfs:comment "Name associated with a Person"@en, "Naam gebruikt voor een Persoon"@nl ;
+    rdfs:domain <#Person> ;
+    rdfs:range xsd:string .
+
+<#studentId> a rdf:Property ;
+    rdfs:label "Student ID"@en, "Studentennummer"@nl ;
+    rdfs:comment "Number that uniquely identifies a student"@en, "Nummer dat een student uniek identificeert"@nl ;
+    rdfs:domain <#Person> ;
+    rdfs:range xsd:integer .
+
+<#Organization> a rdfs:Class ;
+    rdfs:label "Organization"@en, "Organisatie"@nl ;
+    rdfs:comment "A structured group of people, such as a company."@en, "Een gestructureerde groep mensen, zoals een bedrijf."@nl .
+
+ <#worksAt> a rdf:Property ;
+    rdfs:label "Works At"@en, "Werkt bij"@nl ;
+    rdfs:comment "The organization where the person is employed."@en, "De organisatie waar de persoon werkzaam is."@nl ;
+    rdfs:domain <#Person> ;
+    rdfs:range <#Organization> .
+
+<#email> a rdf:Property ;
+    rdfs:label "Email Address"@en, "E-mailadres"@nl ;
+    rdfs:comment "The contact email of a person."@en, "Het e-mailadres van een persoon."@nl ;
+    rdfs:domain <#Person> ;
+    rdfs:range xsd:string .
+
+<#interest> a rdf:Property ;
+    rdfs:label "Interest"@en, "Interesse"@nl ;
+    rdfs:comment "A hobby or topic of interest."@en, "Een hobby of interessegebied."@nl ;
+    rdfs:domain <#Person> ;
+    rdfs:range xsd:string .
+
+<#numberOfKids> a rdf:Property ;
+    rdfs:label "Number of Children"@en, "Aantal kinderen"@nl ;
+    rdfs:comment "The number of children a person has."@en, "Het aantal kinderen dat een persoon heeft."@nl ;
+    rdfs:domain <#Person> ;
+    rdfs:range xsd:integer .
+
+<#knows> a rdf:Property ;
+    rdfs:label "Knows"@en, "Kent"@nl ;
+    rdfs:comment "Indicates a social relationship between two people."@en, "Geeft een sociale relatie aan tussen twee personen."@nl ;
+    rdfs:domain <#Person> ;
+    rdfs:range <#Person> .
+
+<#colleague> a rdf:Property ;
+    rdfs:label "Colleague"@en, "Collega"@nl ;
+    rdfs:comment "A person who works with the subject."@en, "Een persoon die samenwerkt met het subject."@nl ;
+    rdfs:domain <#Person> ;
+    rdfs:range <#Person> ;
+    rdfs:subPropertyOf <#knows> .
+
+<#worksInSameBuilding> a rdf:Property ;
+    rdfs:label "Works in same building"@en, "Werkt in hetzelfde gebouw"@nl ;
+    rdfs:comment "Indicates two people share a physical workspace."@en, "Geeft aan dat twee personen dezelfde fysieke werkplek delen."@nl ;
+    rdfs:domain <#Person> ;
+    rdfs:range <#Person> .

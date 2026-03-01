@@ -1,0 +1,15 @@
+@base <https://jellenelis.github.io/knowledge-graphs/data.ttl#> .
+@prefix jn: <https://jellenelis.github.io/knowledge-graphs/vocabulary.ttl#> .
+
+<#hydrosync_ai> a jn:Organization .
+
+<#JelleNelis> a jn:Person ;
+	jn:name "Jelle Nelis" ;
+	jn:studentId 19993730 ;
+	jn:worksAt <#hydrosync_ai> ;
+	jn:email "jellenelis@gmail.com" ;
+	jn:interest "Soccer" ;
+	jn:numberOfKids 2 ;
+	jn:colleague <#AnnaLin> ;
+	jn:knows <#KellyMarino> ;
+	jn:worksInSameBuilding <#KellyMarino> .
