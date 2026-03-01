@@ -1,5 +1,6 @@
 @base <https://jellenelis.github.io/knowledge-graphs/data.ttl#> .
 @prefix jn: <https://jellenelis.github.io/knowledge-graphs/vocabulary.ttl#> .
+@prefix al: <https://anyplin.github.io/Knowledge-Graphs/#> .
 
 <#hydrosync_ai> a jn:Organization .
 
@@ -10,6 +11,6 @@
 	jn:email "jellenelis@gmail.com" ;
 	jn:interest "Soccer" ;
 	jn:numberOfKids 2 ;
-	jn:colleague <#AnnaLin> ;
+	jn:colleague al:Anna ;
 	jn:knows <#KellyMarino> ;
-	jn:worksInSameBuilding <#KellyMarino> .
+	jn:worksInSameBuilding _KellyMarino .
