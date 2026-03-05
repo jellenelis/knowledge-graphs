@@ -2,6 +2,7 @@
 
 ## Output of curl -I https://jellenelis.github.io/knowledge-graphs/data.ttl
 
+```http
 HTTP/2 200 
 server: GitHub.com
 content-type: text/turtle; charset=utf-8
@@ -23,6 +24,7 @@ x-timer: S1772407370.930369,VS0,VE1
 vary: Accept-Encoding
 x-fastly-request-id: 97122383fc82006b41ccc671b61138d6553b589f
 content-length: 465
+```
 
 ## Content-Type
 
