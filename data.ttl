@@ -1,4 +1,4 @@
-@base <https://jellenelis.github.io/knowledge-graphs/data.ttl#> .
+@base <https://jellenelis.github.io/knowledge-graphs/data.ttl> .
 @prefix jn: <https://jellenelis.github.io/knowledge-graphs/vocabulary.ttl#> .
 @prefix al: <https://anyplin.github.io/Knowledge-Graphs/data.ttl#> .
 @prefix km: <https://kellymarino.github.io/knowledge-graphs-2026/data.ttl#> .
