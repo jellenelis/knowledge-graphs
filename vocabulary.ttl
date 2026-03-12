@@ -65,3 +65,13 @@
     rdfs:comment "Indicates two people share a physical workspace."@en, "Geeft aan dat twee personen dezelfde fysieke werkplek delen."@nl ;
     rdfs:domain <#Person> ;
     rdfs:range <#Person> .
+
+<#Course> a rdfs:Class ;
+    rdfs:label "Series of classes at a educational institue"@en, "Verzameling lessen bij een onderwijsinstelling"@nl ;
+    rdfs:comment "Indicates an educational activity"@en, "Onderwijsactiviteit die gevolgd kan worden door studenten"@nl ;
+
+<#isCourseParticipant> a rdf:Property ;
+    rdfs:label "Is participating in the course"@en, "Neemt deel aan de cursus"@nl ;
+    rdfs:comment "Indicates that a person is following a course"@en, "Geeft aan dat een persoon een cursus volgt"@nl ;
+    rdfs:domain <#Person> ;
+    rdfs:range <#Course> .

@@ -5,6 +5,8 @@
 
 <#hydrosync_ai> a jn:Organization .
 
+<#KnowledgeGraphs> a jn:Course .
+
 <#JelleNelis> a jn:Person ;
 	jn:name "Jelle Nelis" ;
 	jn:studentId 19993730 ;
@@ -12,6 +14,7 @@
 	jn:email "jellenelis@gmail.com" ;
 	jn:interest "Soccer" ;
 	jn:numberOfKids 2 ;
+	jn:isCourseParticipant <#KnowlegdeGraphs> ;
 	jn:colleague al:Anna ;
 	jn:knows km:MyName ;
 	jn:worksInSameBuilding km:MyName .
