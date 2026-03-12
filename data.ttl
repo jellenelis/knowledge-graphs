@@ -18,3 +18,5 @@
 	jn:colleague al:Anna ;
 	jn:knows km:MyName ;
 	jn:worksInSameBuilding km:MyName .
+
+km:MyName jn:isCourseParticipant <#KnowledgeGraphs> .
