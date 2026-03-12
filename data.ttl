@@ -14,7 +14,7 @@
 	jn:email "jellenelis@gmail.com" ;
 	jn:interest "Soccer" ;
 	jn:numberOfKids 2 ;
-	jn:isCourseParticipant <#KnowlegdeGraphs> ;
+	jn:isCourseParticipant <#KnowledgeGraphs> ;
 	jn:colleague al:Anna ;
 	jn:knows km:MyName ;
 	jn:worksInSameBuilding km:MyName .
