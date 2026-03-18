@@ -33,7 +33,7 @@
     jn:depicts <#JelleNelis> ;
     jn:hasLocation <#Ghent> ;
     jn:hasDescription "Simple picture of Jelle Nelis"@en, "Foto van Jelle Nelis"@nl ;
-    jn:hasURL "https://media.licdn.com/dms/image/v2/D4E03AQEzjA0EGh-UBQ/profile-displayphoto-scale_200_200/B4EZuUI2ekLMAY-/0/1767716908736?e=1775692800&v=beta&t=UD32_20k1EOQssm7Y1cirARyw36uAeIHOBWXuciwWH8" .
+    jn:hasUrl "https://media.licdn.com/dms/image/v2/D4E03AQEzjA0EGh-UBQ/profile-displayphoto-scale_200_200/B4EZuUI2ekLMAY-/0/1767716908736?e=1775692800&v=beta&t=UD32_20k1EOQssm7Y1cirARyw36uAeIHOBWXuciwWH8" .
 
 <#JelleNelisProfilePictureGitHub> a jn:Photo ;
     jn:title "GitHub Profile picture"@en, "Profielfoto GitHub"@nl ;
@@ -41,7 +41,7 @@
     jn:depicts <#JelleNelis> ;
     jn:hasLocation <#Ghent> ;
     jn:hasDescription "Simple picture of Jelle Nelis"@en, "Foto van Jelle Nelis"@nl ;
-    jn:hasURL "https://avatars.githubusercontent.com/u/4747277?v=4" .
+    jn:hasUrl "https://avatars.githubusercontent.com/u/4747277?v=4" .
 
 <#JelleNelisVPW2010> a jn:Photo ;
     jn:title "VPW"@en, "VPW"@nl ;
@@ -49,4 +49,4 @@
     jn:depicts <#JelleNelis>, <#RafHens>, <#PaulVanCauwenberghe> ;
     jn:hasLocation <#Ghent> ;
     jn:hasDescription "Award ceremony VPW 2010"@en, "Prijsuitreiking VPW 2010"@nl ;
-    jn:hasURL "https://www.vlaamseprogrammeerwedstrijd.be/2010/images/nic_vermeulen/vpw-2010_032_cat3-3de-PiKwadraat.jpg" .
+    jn:hasUrl "https://www.vlaamseprogrammeerwedstrijd.be/2010/images/nic_vermeulen/vpw-2010_032_cat3-3de-PiKwadraat.jpg" .
