@@ -75,3 +75,43 @@
     rdfs:comment "Indicates that a person is following a course"@en, "Geeft aan dat een persoon een cursus volgt"@nl ;
     rdfs:domain <#Person> ;
     rdfs:range <#Course> .
+
+# Photographs
+
+<#Photo> a rdfs:Class ;
+    rdfs:label "Photo"@en, "Foto"@nl ;
+    rdfs:comment "Photograph"@en, "Foto"@nl .
+
+<@Location> a rdfs:Class ;
+    rdfs:label "Location"@en, "Plaats"@nl ;
+    rdfs:comment "Physical location"@en, "Fysieke plaats"@nl .
+
+<#title> a rdf:Property ;
+    rdfs:label "Title of the photograph"@en, "Titel van de foto"@nl ;
+    rdfs:comment "String representing the photograph"@en, "Tekst die iets zegt over de foto"@nl ;
+    rdfs:domain <#Photo> ;
+    rdfs:range rdf:langString .
+
+<#creator> a rdf:Property ;
+    rdfs:label "Creator"@en, "Maker"@nl ;
+    rdfs:comment "Creator of a resource"@en, "Maker van een artefact"@nl ;
+    rdfs:domain <#Photo> ;
+    rdfs:range <#Person> .
+
+<#depicts> a rdf:Property ;
+    rdfs:label "Depicts"@en, "Toont"@nl ;
+    rdfs:comment "Photograph depicts a person"@en, "Foto toont een persoon"@nl ;
+    rdfs:domain <#Photo> ;
+    rdfs:range <#Person> .
+
+<#hasLocation> a rdf:Property ;
+    rdfs:label "Has location"@en, "Is genomen op plaats"@nl ;
+    rdfs:comment "Location a photograph was taken"@en, "De plaats waar een foto getrokken is"@nl ;
+    rdfs:domain <#Photo> ;
+    rdfs:range <#Location> .
+
+<#hasDescription> a rdf:Property ;
+    rdfs:label "Has description"@en, "Heeft omschrijving"@nl ;
+    rdfs:comment "Description of the photograph"@en, "Beschrijving van de foto"@nl ;
+    rdfs:domain <#Photo> ;
+    rdfs:range rdf:langString .
