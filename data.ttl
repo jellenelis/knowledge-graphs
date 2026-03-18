@@ -45,7 +45,7 @@
 
 <#JelleNelisVPW2010> a jn:Photo ;
     jn:title "VPW"@en, "VPW"@nl ;
-    jn:creator _b0 ;
+    jn:creator _:b0 ;
     jn:depicts <#JelleNelis>, <#RafHens>, <#PaulVanCauwenberghe> ;
     jn:hasLocation <#Ghent> ;
     jn:hasDescription "Award ceremony VPW 2010"@en, "Prijsuitreiking VPW 2010"@nl ;

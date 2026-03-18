@@ -115,3 +115,9 @@
     rdfs:comment "Description of the photograph"@en, "Beschrijving van de foto"@nl ;
     rdfs:domain <#Photo> ;
     rdfs:range rdf:langString .
+
+<#hasUrl> a rdf:Property ;
+    rdfs:label "has URL"@en, "heeft URL"@nl ;
+    rdfs:comment "URL photograph can be dowloaded from"@en, "URL van waar de foto gedownload kan worden"@nl ;
+    rdfs:domain <#Photo> ;
+    rdfs:range xsd:anyURI .
