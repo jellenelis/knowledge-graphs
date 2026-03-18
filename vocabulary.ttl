@@ -6,11 +6,13 @@
 
 <#Person> a rdfs:Class ;
     rdfs:label "Person"@en, "Persoon"@nl ;
-    rdfs:comment "Resource that denotes a physical person"@en, "Concept dat een fysieke persoon voorstelt"@nl .
+    rdfs:comment "Resource that denotes a physical person"@en, "Concept dat een fysieke persoon voorstelt"@nl ;
+    rdfs:subClassOf foaf:Person .
 
 <#name> a rdf:Property ;
     rdfs:label "Name"@en, "Naam"@nl ;
     rdfs:comment "Name associated with a Person"@en, "Naam gebruikt voor een Persoon"@nl ;
+    rdfs:subPropertyOf foaf:name ;
     rdfs:domain <#Person> ;
     rdfs:range xsd:string .
 
@@ -103,6 +105,7 @@
 <#depicts> a rdf:Property ;
     rdfs:label "Depicts"@en, "Toont"@nl ;
     rdfs:comment "Photograph depicts a person"@en, "Foto toont een persoon"@nl ;
+    rdfs:subPropertyOf foaf:depicts ;
     rdfs:domain <#Photo> ;
     rdfs:range <#Person> .
 
